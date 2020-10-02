@@ -1,2 +1,2 @@
 # Snakegame
-A basic C snake game
+A basic snake gmae devloped using C lang.
