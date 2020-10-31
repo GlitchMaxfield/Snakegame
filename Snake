@@ -184,3 +184,21 @@ setcolor(WHITE);
   getch();
   exit(0);
 }
+
+
+//NEW SNAKE MOVE
+setcolor(WHITE);
+settextstyle(3,0,6);
+outtextxy(200,2," SNAKE 2 ");
+settextstyle(6,0,2);
+outtextxy(20,80," Use Arrow Keys To Direct The Snake ");
+outtextxy(20,140," Avoid The Head Of Snake Not To Hit Any Part Of Snake
+");
+outtextxy(20,160," Pick The Beats Untill You Win The Game ");
+outtextxy(20,200," Press 'Esc' Anytime To Exit ");
+outtextxy(20,220," Press Any Key To Continue ");
+ch=getch();
+if(ch==27) exit(0);
+cleardevice();
+maxx=getmaxx();
+maxy=getmaxy();
